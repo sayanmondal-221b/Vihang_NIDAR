@@ -57,8 +57,8 @@ def detect_and_mark_yellow_spots(image_path, output_path="yellow_spots_detected.
     return detected_spots, output
 
 if __name__ == "__main__":
-    input_image = "yellow9.png"  
-    output_image = "detected_spots9.png"
+    input_image = "input_image.png"  
+    output_image = "detected_spots.png"
     
     spots, marked_image = detect_and_mark_yellow_spots(
         image_path=input_image,
